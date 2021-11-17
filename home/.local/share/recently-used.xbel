@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/hola/ROM/learnVite" added="2021-10-03T09:01:44.247297Z" modified="2021-10-03T09:01:44.247302Z" visited="2021-10-03T09:01:44.247298Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-10-03T09:01:44.247300Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hola/project/commit/MAK-YIHA/MIND-LATUR/dist/assets/icon/Home.svg" added="2021-10-15T02:46:27.728911Z" modified="2021-10-15T02:46:28.009989Z" visited="2021-10-15T02:46:27.728913Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="org.inkscape.Inkscape" exec="&apos;org.inkscape.Inkscape %u&apos;" modified="2021-10-15T02:46:28.009986Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/hola/ROM/commit" added="2021-11-02T14:43:10.470259Z" modified="2021-11-02T14:43:10.470264Z" visited="2021-11-02T14:43:10.470260Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-11-02T14:43:10.470261Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

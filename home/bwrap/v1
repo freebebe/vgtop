@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+cd $HOME/.config/v2/web &&
+bwrap \
+	--ro-bind / / \
+	--unshare-user \
+/usr/bin/v2ray
