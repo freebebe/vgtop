@@ -4,8 +4,8 @@ endif
 
 call plug#begin('$HOME/.config/nvim/.plugged')
 
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-rhubarb'
+" Plug 'tpope/vim-fugitive'
+" Plug 'tpope/vim-rhubarb'
 " Plug 'abecodes/tabout.nvim'
 Plug 'tomtom/tcomment_vim'
 
@@ -23,27 +23,23 @@ if has ("nvim")
     Plug 'hrsh7th/cmp-buffer'
 
     Plug 'L3MON4D3/LuaSnip'
-
-    Plug 'onsails/lspkind-nvim'
-
-    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-        Plug 'JoosepAlviste/nvim-ts-context-commentstring'
-        " gcc
+    Plug 'saadparwaiz1/cmp_luasnip'
 
     Plug 'nvim-lua/popup.nvim'
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
 
-    Plug 'Yggdroot/indentLine'
+    " Plug 'Yggdroot/indentLine'
 
     Plug 'kyazdani42/nvim-web-devicons'
     " Plug 'blackCauldron7/surround.nvim'
 
     " Plug 'lewis6991/gitsigns.nvim'
     Plug 'mg979/vim-visual-multi', {'branch': 'master'}
-    Plug 'windwp/nvim-autopairs'
+    " Plug 'windwp/nvim-autopairs'
     "{} () <>
 
+    Plug 'jose-elias-alvarez/null-ls.nvim'
 endif
 
 Plug 'mattn/emmet-vim'
